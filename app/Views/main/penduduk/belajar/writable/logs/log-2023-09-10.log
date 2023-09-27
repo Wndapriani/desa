@@ -1,0 +1,10 @@
+CRITICAL - 2023-09-10 05:33:39 --> Invalid file: "header_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('header_view.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('header_view', [], true)
+ 3 APPPATH\Controllers\Barang.php(13): view('header_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(915): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(492): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\belajar\\public\\index.php')
