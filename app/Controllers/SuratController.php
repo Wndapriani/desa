@@ -57,9 +57,11 @@ class SuratController extends BaseController
             return view('main/surat/pdf/cetak_lahir', $data);
         } elseif ($type === 'mati') {
             $model = new MeninggalModel();
+            if (isset($_GET["id"])) {
+                $id = $_GET["id"];
+            }
             $mati = $model->find($id);
-            $data['data'] = $model->getIdJoinPdf($mati[0]['id_mendu']);
-
+            $data['data'] = $model->getIdJoinPdf($mati['id_mendu']);
             return view('main/surat/pdf/cetak_mati', $data);
         } elseif ($type === 'pindah') {
             $model = new PindahModel();

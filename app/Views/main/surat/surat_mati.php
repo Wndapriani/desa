@@ -40,17 +40,13 @@
                                 <div class="col-sm-6">
                                     <select name="id" id="id" class="form-control select2bs4" required>
                                         <option selected="selected">- Pilih Data -</option>
-                                        <?php
-                                        foreach ($mati as $key => $row) :
-                                        ?>
+                                        <?php foreach ($mati as $key => $row) : ?>
                                             <option value="<?php echo $row['id_mendu'] ?>">
                                                 <?php echo $row['nik'] ?>
                                                 -
                                                 <?php echo $row['nama'] ?>
                                             </option>
-                                        <?php
-                                        endforeach
-                                        ?>
+                                        <?php endforeach ?>
                                     </select>
                                 </div>
                             </div>

@@ -86,8 +86,12 @@
                                     <tr>
                                         <th>NIK</th>
                                         <th>Nama</th>
-                                        <th>Jekel</th>
+                                        <th>Jk</th>
                                         <th>Hub Keluarga</th>
+                                        <th>tempat lahir</th>
+                                        <th>tanggal lahir</th>
+                                        <th>agama</th>
+                                        <th>pendidikan</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
@@ -106,6 +110,18 @@
                                             </td>
                                             <td>
                                                 <?php echo $data['jekel']; ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $data['hubungan']; ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $data['hubungan']; ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $data['hubungan']; ?>
+                                            </td>
+                                            <td>
+                                                <?php echo $data['hubungan']; ?>
                                             </td>
                                             <td>
                                                 <?php echo $data['hubungan']; ?>
