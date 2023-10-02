@@ -21,25 +21,13 @@ $tgl = date("d/m/y");
 			<br>DESA GERENENG
 		</h3>
 		<p>________________________________________________________________________</p>
-
-		<?php
-		// $sql_tampil = "select * from tb_datang
-		// 	where id_datang ='$id'";
-
-		// $query_tampil = mysqli_query($koneksi, $sql_tampil);
-		// $no = 1;
-		// while ($data = mysqli_fetch_array($query_tampil, MYSQLI_BOTH)) {
-		?>
 	</center>
 
 	<center>
 		<h4>
 			<u>SURAT KETARANGAN PENDATANG</u>
 		</h4>
-		<h4>No Surat :
-			<?php echo $data[0]['id_datang']; ?>/Ket.Pendatang/
-			<?php echo $tanggal; ?>
-		</h4>
+		<h4>No Surat : 0<?php echo $ininomor; ?>/Ket.Pendatang/<?php echo $tanggal; ?></h4>
 	</center>
 	<p>Yang bertandatangan dibawah ini Kepala Desa Gereneng, Kecamatan Sakra Timur, Kabupaten Lombok Timur, dengan ini menerangkan
 		bahawa :</P>
@@ -49,28 +37,28 @@ $tgl = date("d/m/y");
 				<td>NIK</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['nik']; ?>
+					<?php echo $data['nik']; ?>
 				</td>
 			</tr>
 			<tr>
 				<td>Nama</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['nama_datang']; ?>
+					<?php echo $data['nama_datang']; ?>
 				</td>
 			</tr>
 			<tr>
 				<td>Jenis Kelamin</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['jekel']; ?>
+					<?php echo $data['jekel']; ?>
 				</td>
 			</tr>
 			<tr>
 				<td>Tanggal Datang</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['tgl_datang']; ?>
+					<?php echo $data['tgl_datang']; ?>
 				</td>
 			</tr>
 		</tbody>

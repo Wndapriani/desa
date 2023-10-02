@@ -25,10 +25,7 @@ $tgl = date("d/m/y");
 		<h4>
 			<u>SURAT KETARANGAN PINDAH</u>
 		</h4>
-		<h4>No Surat :
-			<?php echo $data['id_pend']; ?>/Ket.Pindah/
-			<?php echo $tanggal; ?>
-		</h4>
+		<h4>No Surat : 0<?php echo $ininomor; ?>/Ket.Pindah/<?php echo $tanggal; ?></h4>
 	</center>
 	<p>Yang bertandatangan dibawah ini Kepala Desa Gereneng, Kecamatan Sakra Timur, Kabupaten Lombok Timur, dengan ini menerangkan
 		bahawa :</P>

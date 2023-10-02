@@ -91,7 +91,7 @@
                                         <th>tempat lahir</th>
                                         <th>tanggal lahir</th>
                                         <th>agama</th>
-                                        <th>pendidikan</th>
+                                        <th>pekerjaan</th>
                                         <th>Aksi</th>
                                     </tr>
                                 </thead>
@@ -115,16 +115,16 @@
                                                 <?php echo $data['hubungan']; ?>
                                             </td>
                                             <td>
-                                                <?php echo $data['hubungan']; ?>
+                                                <?php echo $data['tempat_lh']; ?>
                                             </td>
                                             <td>
-                                                <?php echo $data['hubungan']; ?>
+                                                <?php echo $data['tgl_lh']; ?>
                                             </td>
                                             <td>
-                                                <?php echo $data['hubungan']; ?>
+                                                <?php echo $data['agama']; ?>
                                             </td>
                                             <td>
-                                                <?php echo $data['hubungan']; ?>
+                                                <?php echo $data['pekerjaan']; ?>
                                             </td>
                                             <td>
                                                 <a href="<?php echo base_url('/kartu-keluarga/anggota/delete/') . $data['id_anggota']; ?>" onclick="return confirm('Apakah anda yakin hapus data ini ?')" title="Hapus" class="btn btn-danger btn-sm">

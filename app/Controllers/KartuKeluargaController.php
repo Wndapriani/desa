@@ -87,7 +87,6 @@ class KartuKeluargaController extends BaseController
         $data['kk'] = $tbKkModel->find($id);
         $data['anggota'] = $tbKkModel->penduduk($id);
         $data['penduduk'] = $tbPendModel->findAll();
-
         return view('main/kk/anggota', $data);
     }
 

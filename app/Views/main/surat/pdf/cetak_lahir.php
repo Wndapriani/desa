@@ -27,9 +27,7 @@ $tgl = date("d/m/y");
 		<h4>
 			<u>SURAT KETARANGAN KELAHIRAN</u>
 		</h4>
-		<h4>No Surat :
-			<?php echo $data[0]['id_lahir']; ?>/Ket.Kelahiran/
-			<?php echo $tanggal; ?>
+		<h4>No Surat : 0<?php echo $ininomor; ?>/Ket.Kelahiran/<?php echo $tanggal; ?>
 		</h4>
 	</center>
 	<p>Yang bertandatangan dibawah ini Kepala Desa Gereneng, Kecamatan Sakra Timur, Kabupaten Lombok Timur, dengan ini menerangkan
@@ -40,21 +38,21 @@ $tgl = date("d/m/y");
 				<td>Nama</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['nama']; ?>
+					<?php echo $data['nama']; ?>
 				</td>
 			</tr>
 			<tr>
 				<td>Jenis Kelamin</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['jekel']; ?>
+					<?php echo $data['jekel']; ?>
 				</td>
 			</tr>
 			<tr>
 				<td>Tanggal Lahir</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['tgl_lh']; ?>
+					<?php echo $data['tgl_lh']; ?>
 				</td>
 			</tr>
 		</tbody>

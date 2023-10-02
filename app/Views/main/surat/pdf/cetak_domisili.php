@@ -31,13 +31,8 @@ $tgl = date("d/m/y");
 	</center>
 
 	<center>
-		<h4>
-			<u>SURAT KETARANGAN DOMISILI</u>
-		</h4>
-		<h4>No Surat :
-			<?php echo $data[0]['id_pend']; ?>/Ket.Domisili/
-			<?php echo $tanggal; ?>
-		</h4>
+		<h4><u>SURAT KETARANGAN DOMISILI</u></h4>
+		<h4>No Surat : 0<?php echo $ininomor; ?>/Ket.Domisili/<?php echo $tanggal; ?></h4>
 	</center>
 	<p>Yang bertandatangan dibawah ini Kepala Desa Gereneng, Kecamatan Sakra Timur, Kabupaten Lombok Timur, dengan ini menerangkan
 		bahwa :</P>
@@ -47,22 +42,22 @@ $tgl = date("d/m/y");
 				<td>NIK</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['nik']; ?>
+					<?php echo $data['nik']; ?>
 				</td>
 			</tr>
 			<tr>
 				<td>Nama</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['nama']; ?>
+					<?php echo $data['nama']; ?>
 				</td>
 			</tr>
 			<tr>
 				<td>TTL</td>
 				<td>:</td>
 				<td>
-					<?php echo $data[0]['tempat_lh']; ?>/
-					<?php echo $data[0]['tgl_lh']; ?>
+					<?php echo $data['tempat_lh']; ?>/
+					<?php echo $data['tgl_lh']; ?>
 				</td>
 			</tr>
 		</tbody>

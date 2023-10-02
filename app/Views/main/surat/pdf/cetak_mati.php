@@ -28,10 +28,8 @@ $tgl = date("d/m/y");
 		<h4>
 			<u>SURAT KETARANGAN KEMATIAN</u>
 		</h4>
-		<h4>No Surat :
-			<?php echo $data['id_pdd']; ?>/Ket.Kematian/
-			<?php echo $tanggal; ?>
-		</h4>
+		<!-- <php echo $data['id_pdd']; ?> -->
+		<h4>No Surat : 0<?php echo $ininomor; ?> /Ket.Kematian/ <?php echo $tanggal; ?></h4>
 	</center>
 	<p>Yang bertandatangan dibawah ini Kepala Desa Gereneng, Kecamatan Sakra Timur, Kabupaten Lombok Timur, dengan ini menerangkan
 		bahawa :</P>
